@@ -1,0 +1,179 @@
+#photobooth{
+  width: 100vw;
+  height: 10vh;
+  background-color: #FCE4C4;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+
+
+
+}
+img{
+	height: 10vh;
+	width: 5vw;
+}
+#text{
+	display: inline-block;
+	font-family: sans-serif;
+	position: relative;
+	bottom: 3vh;
+	font-size: 40px;
+	font-weight: lighter;
+	color: #338F63
+}
+#pic{
+	width: 100vw;
+	height: 85vh;
+	background: linear-gradient(to top right,#2B539D,#403066 60%);
+	margin-bottom: 20px;
+
+}
+#picframe{
+      width: 40vw;
+      height: 60vh;
+      border:10px solid green;
+      display: inline-block;
+      margin:6vh 30vw;
+      padding: 10px 20px;
+      box-sizing: border-box;
+}
+#picload{
+	height: 45vh;
+	width: 35vw;
+    background-color: #9D4AE9;
+    margin-top: 60px;
+}
+
+#download_icon{
+	height: 10vh;
+	width: 20vw;
+	color:white;
+	margin: auto;
+	/*background-color: yellow;*/
+}
+#d1{
+	height: 5vh;
+    background-color: #9D4AE9;
+	font-weight: lighter;
+	font-family: fantasy;
+	color: white;
+	font-size: 1.1rem;
+	padding:2px 90px;
+	border-radius:10px;
+	box-shadow: 4px 4px 1px 1px black;
+}
+#d2{
+	height: auto;
+	width: auto;
+	
+	padding: 7px 120px;
+
+}
+#picload i{
+	padding: 20vh 17vw;
+}
+
+#frames{
+height: 30vh;
+width: 120vw;
+
+/*border:2px solid black;*/
+overflow-x: auto;
+/*display: flex;*/
+}
+
+.divframes{
+/*border:4px solid red;*/
+flex-direction: column;
+ display: inline-block;
+ height: 20vh;
+ width: 15vw;
+ overflow-x: auto;
+ margin: 5px 5px;
+ /*//background-color: yellow;*/
+ 
+}
+/* we can use nth child selector for below part but it increases the load on the website*/
+
+#f1{
+border:2px solid blue;
+}
+#f2{
+border:4px solid #F5A540;
+}
+#f3{
+border:5px solid #EE82EE;
+}
+#f4{
+border:6px solid #ED3833;
+}
+#f5{
+border:7px solid #5AC999;
+}
+#f6{
+border:8px solid #5CC532
+}
+#f7{
+border:2px solid #452A99;
+
+}
+
+
+@media screen and (max-width:1000px){
+	 #picframe{
+	 	width: 50vw;
+	 	background-color: #0F2044;
+	 	margin:6vh 25vw;
+	 }
+	 #picload{
+	 	width: 40vw;
+
+	 }
+	 #picload i{
+	padding: 20vh 19vw;
+}
+	 #download_icon{
+	 	width: 25vw;
+	 }
+
+
+}
+
+@media screen and (max-width:800px){
+	 #picframe{
+	 	width: 55vw;
+	 	background-color: #640EBE;
+	 }
+	 #picload{
+	 	width: 45vw;
+	 }
+	 #picload i{
+	padding: 20vh 21vw;
+}
+	 #download_icon{
+	 	width: 40vw;
+	 }
+	 #d1{
+	 	padding: 1px 15vw;
+	 }
+}
+@media screen and (max-width:500px){
+	 #picframe{
+	 	width: 60vw;
+	 	background-color: #BE0E8F;
+	 }
+	 #picload{
+	 	width: 50vw;
+	 }
+	 #download_icon{
+	 	width: 45vw;
+	 }
+	 #d1{
+	 	padding: 2px 80px;
+	 }
+}
+
+
+
+
+
